@@ -1,0 +1,45 @@
+<!--index.wxml-->
+<view class="page">
+    <view class="page__bd">
+      <swiper class="swiper-topimgs"  indicator-dots="{{indicatorDots}}"  autoplay="{{autoplay}}"
+    interval="{{interval}}" duration="{{duration}}" circular="{{circular}}" >
+        <block wx:for="{{topimgs}}" wx:key="item">
+          <swiper-item>
+            <image class="slide-image" src="{{item}}"></image>
+          </swiper-item>
+        </block>
+      </swiper>
+
+      <view class="weui-cells__title">选择提交后,有客服联系您,请保持电话畅通</view>
+      <view class="weui-grids">
+            <block class="service">
+                <navigator url="" class="weui-grid" hover-class="weui-grid_active">
+                    <image class="weui-grid__icon" src="../../images/icon_11.png" />
+                    <view class="weui-grid__label ">主体拆改</view>
+                </navigator>
+                <navigator url="" class="weui-grid" hover-class="weui-grid_active">
+                    <image class="weui-grid__icon" src="../../images/icon_07.png" />
+                    <view class="weui-grid__label">水电改装</view>
+                </navigator>
+                <navigator url="" class="weui-grid" hover-class="weui-grid_active">
+                    <image class="weui-grid__icon" src="../../images/icon_23.png" />
+                    <view class="weui-grid__label">墙面工程</view>
+                </navigator>
+
+                <navigator url="" class="weui-grid" hover-class="weui-grid_active">
+                    <image class="weui-grid__icon" src="../../images/icon_03.png" />
+                    <view class="weui-grid__label">地面工程</view>
+                </navigator>
+                <navigator url="" class="weui-grid" hover-class="weui-grid_active">
+                    <image class="weui-grid__icon" src="../../images/icon_05.png" />
+                    <view class="weui-grid__label">木工工程</view>
+                </navigator>
+                <navigator url="" class="weui-grid" hover-class="weui-grid_active">
+                    <image class="weui-grid__icon" src="../../images/icon_01.png" />
+                    <view class="weui-grid__label">家具维护</view>
+                </navigator>
+            </block>
+        </view>
+
+    </view>
+</view>

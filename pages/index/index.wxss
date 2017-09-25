@@ -1,0 +1,28 @@
+/**index.wxss**/
+
+.swiper-topimgs{
+  width: 100%;
+  height: 150px;
+  box-sizing: border-box;
+}
+
+.slide-image{
+  width: 100%;
+  height: 150px;
+}
+
+.weui-cells__title {
+  color: #191970;
+  text-align: center;
+  font-size: 12px;
+}
+
+.weui-grid__icon{
+  width:44px;
+  height:44px;
+}
+
+.weui-grid__label{
+  padding-top: 8px;
+  font-size: 12px;
+}

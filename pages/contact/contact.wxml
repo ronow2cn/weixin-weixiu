@@ -1,0 +1,15 @@
+<view class="page">
+    <view class="page__hd">
+        <view class="page__title">小程序名</view>
+        <view class="page__desc">文章</view>
+    </view>
+    
+  <view class="page__bd">
+    <view class="weui-footer weui-footer_fixed-bottom">
+        <view class="weui-footer__links">
+            <navigator url="" class="weui-footer__link">科技公司</navigator>
+        </view>
+        <view class="weui-footer__text">Copyright © 2008-2016 haa.io</view>
+    </view>
+  </view>
+</view>
